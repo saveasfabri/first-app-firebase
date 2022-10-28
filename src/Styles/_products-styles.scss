@@ -1,0 +1,24 @@
+.products-container {
+  margin-top: 30px;
+  .btn-product{
+    margin-top: 30px;
+  }
+  .products {
+    width: 50%;
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px rgb(175, 175, 175);
+    h3{
+      text-align: center;
+    }
+  }
+  .btn-delete, .btn-update {
+    margin-top: 15px;
+  }
+}
